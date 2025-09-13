@@ -42,10 +42,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 Set-ExecutionPolicy Bypass -Scope Process -Force
 & ".\scripts\Audit-PostRemediacion-Full_v2.ps1" -Days 45
 ```
-
-## Publicación en GitHub
-1. Crea un repo vacío en GitHub.
-2. Sube el contenido:
 ```bash
 git init
 git remote add origin <URL_DEL_REPO>
