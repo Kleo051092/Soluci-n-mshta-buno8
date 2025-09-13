@@ -42,11 +42,4 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 Set-ExecutionPolicy Bypass -Scope Process -Force
 & ".\scripts\Audit-PostRemediacion-Full_v2.ps1" -Days 45
 ```
-```bash
-git init
-git remote add origin <URL_DEL_REPO>
-git add .
-git commit -m "Kit respuesta mshta/buno8: triage, auditoría, remediación y post-auditoría"
-git branch -M main
-git push -u origin main
 ```
